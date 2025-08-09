@@ -17,8 +17,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.mjs'],
-    alias: { 'react-router-dom': path.resolve(__dirname, 'node_modules/react-router-dom/dist/index.js') }
+    extensions: ['.js', '.jsx', '.mjs']
   },
   plugins: [
     new HtmlWebpackPlugin({ 
